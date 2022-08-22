@@ -98,7 +98,7 @@ struct SecondView: View{
                         newArr.append(FruitModel(name: i.name, count: i.count - 1))
                     }
                     fruits.fruits = newArr
-//                    fruits.fruits.append(FruitModel(name: "Chocolate", count: 11))
+ //                    fruits.fruits.append(FruitModel(name: "Chocolate", count: 11))
                 }
                 .padding(.all)
                 .padding(.horizontal)

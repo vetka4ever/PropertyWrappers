@@ -34,6 +34,7 @@ struct ButtonView: View{
     @Binding var title: String
     @State var buttonBackgroundColor: Color = .black
     var body: some View{
+        
         Button("Touch me") {
             backgroundColor = .pink
             title = "Title has changed"

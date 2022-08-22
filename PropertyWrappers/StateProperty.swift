@@ -35,6 +35,7 @@ struct StateProperty: View {
             }
             
             .foregroundColor(.white)
+            
         }
         
     }
