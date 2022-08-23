@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F32E483328B4FAA100A4D209 /* EnvironmentProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32E483228B4FAA100A4D209 /* EnvironmentProperty.swift */; };
 		F35B112028B36C14009A522B /* PropertyWrappersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B111F28B36C14009A522B /* PropertyWrappersApp.swift */; };
 		F35B112228B36C14009A522B /* StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B112128B36C14009A522B /* StateProperty.swift */; };
 		F35B112428B36C18009A522B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35B112328B36C18009A522B /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F32E483228B4FAA100A4D209 /* EnvironmentProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentProperty.swift; sourceTree = "<group>"; };
 		F35B111C28B36C14009A522B /* PropertyWrappers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyWrappers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35B111F28B36C14009A522B /* PropertyWrappersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersApp.swift; sourceTree = "<group>"; };
 		F35B112128B36C14009A522B /* StateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProperty.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F35B112128B36C14009A522B /* StateProperty.swift */,
 				F35B112D28B3723B009A522B /* BindingProperty.swift */,
 				F35B112F28B38A83009A522B /* StateAndObservedProperties.swift */,
+				F32E483228B4FAA100A4D209 /* EnvironmentProperty.swift */,
 				F35B112328B36C18009A522B /* Assets.xcassets */,
 				F35B112528B36C18009A522B /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32E483328B4FAA100A4D209 /* EnvironmentProperty.swift in Sources */,
 				F35B113028B38A83009A522B /* StateAndObservedProperties.swift in Sources */,
 				F35B112E28B3723B009A522B /* BindingProperty.swift in Sources */,
 				F35B112228B36C14009A522B /* StateProperty.swift in Sources */,
